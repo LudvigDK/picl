@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon"/>
+    <title>Picl - Link Shortener</title>
+
+    <link rel="stylesheet" type="text/css" href="static/index.css"/>
+</head>
+<body>
+    <img id="title" src="static/logo-w-text.png" type="image/png">
+
+    <form action="/api/register_redirect" id="link-form">
+        <input type="text" name="endpoint" id="endpoint-input" placeholder="Endpoint">
+        <input type="text" name="prefered_id" id="id-input" placeholder="Id">
+        <button type="submit" id="generate-button">Generate</button>
+    </form>
+</body>

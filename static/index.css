@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(103, 255, 136);
+}
+
+
+
+#title {
+    position: relative;
+    top: -6dvh;
+    left:50%;
+    transform: translateX(-50%);
+    width: 50dvw;
+}
+
+button {
+    border-radius: .3dvw;
+    border-width: .2dvw;
+    border-color: rgb(35, 33, 35);
+    border-style: solid;
+
+    color:rgb(35, 33, 35);
+    background-color: rgb(0, 206, 44);
+}
+
+input[type="text"] {
+    border-radius: .3dvw;
+    border-width: .2dvw;
+    border-color: rgb(35, 33, 35);
+    border-style: solid;
+
+    color:rgb(35, 33, 35);
+    background-color: rgb(0, 206, 44);
+}
